@@ -1,0 +1,40 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  width: 100%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin: 10px 10px;
+
+  display: inline-block;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background: #e4e4e4;
+}
+
+/* Add some padding inside the card container */
+.containercard {
+  padding: 2px 16px;
+}
