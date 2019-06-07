@@ -1,6 +1,8 @@
 Instrucciones para la correcta ejecución
 
-Desde la consola en la carpeta raiz del proyecto ejecutar el comando:
+Una vez descargado el repositorio ejecuta el comando npm install para instalar todos los componentes necesarios
+
+Luego desde la consola en la carpeta raiz del proyecto ejecutar el comando:
 
 node src/app
 
